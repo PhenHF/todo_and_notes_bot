@@ -3,7 +3,7 @@ import sqlite3
 USER_INFO = {}
 
 def sql_connection():
-    con = sqlite3.connect('database/Data.db')
+    con = sqlite3.connect('/home/tony/todo_and_notes_bot/database/Data.db')
     return con
 
 def init_user(user_id):
